@@ -1,5 +1,5 @@
 import '../styles/index.scss';
-import './icons';
+
 
 class App {
     constructor({el}) {

@@ -6,12 +6,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // TODO: вот пример как создавать новые страницы. Не забывай перезагрузить webpack!
 const routerConfig = [
     {
-        name: 'index',
-        template: 'index'
-    },
-    {
-        name: 'about', // Имя для роутинга, т.е. /about.html
-        template: 'about' // Место где лежит шаблон, если нужно засунуть например в папку, тогда будет pages/about
+        name: 'index',// Имя для роутинга, т.е. /about.html
+        template: 'index'// Место где лежит шаблон, если нужно засунуть например в папку, тогда будет pages/about
     },
 ];
 
