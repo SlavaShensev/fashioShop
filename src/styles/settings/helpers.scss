@@ -1,0 +1,60 @@
+.text {
+
+  &-right {
+    text-align: right;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-center {
+    text-align: center
+  }
+
+  &-uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.font {
+
+  &-accent {
+    font-family: $font-accent;
+  }
+
+  &-light {
+    font-weight: $light;
+  }
+
+  &-normal {
+    font-weight: $regular;
+  }
+
+  &-medium {
+    font-weight: $medium;
+  }
+
+  &-semi {
+    font-weight: $semi;
+  }
+
+  &-bold {
+    font-weight: $bold;
+  }
+}
+
+.color {
+
+  &-red {
+    color: $red;
+  }
+
+  &-green {
+    color: $green;
+  }
+}
+
+.link-underline {
+  text-decoration: underline;
+}
