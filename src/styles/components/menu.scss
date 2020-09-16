@@ -1,11 +1,13 @@
 .header__menu {
   flex-basis: 58%;
-
-
 }
 
-.menu__item {
+.menu__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.menu__item {
+  margin: 0 3px;
 }
