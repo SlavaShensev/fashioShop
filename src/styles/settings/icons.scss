@@ -1,10 +1,15 @@
 .icon {
-  display: inline-block;
-  line-height: 1;
+  display: flex;
+  align-items: center;
 
-  &--facebook {
-    width: em(24);
-    height: em(24);
-    fill: currentColor;
+
+  &--cart {
+    margin: 0 12px;
   }
+
+  &--search {
+    position: relative;
+    margin: 0 12px;
+  }
+
 }
