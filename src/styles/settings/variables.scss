@@ -14,7 +14,9 @@ $lightgrey:                 rgba(0, 0, 0, 0.45) !default;
 $blue:                      #000A63 !default;
 $red:                       #E30611 !default;
 $green:                     #00C294 !default;
-$grey__light:               #f0eadc solid;
+
+$grey__light:               #f0eadc;
+$grey__dark:                #545454;
 
 
 // Scaffolding
@@ -54,7 +56,7 @@ $font-accent: "", $sans;
 // Borders
 // -------------------------
 $borderColor:               $black !default;
-$borderColor:               $grey__light;
+
 
 
 // Buttons

@@ -1,15 +1,27 @@
 .icon {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 
 
   &--cart {
-    margin: 0 12px;
+
   }
 
   &--search {
-    position: relative;
-    margin: 0 12px;
+
+  }
+
+  &--slider {
+    width: 37px;
+    height: 37px;
+    border: 1px solid;
+    border-radius: 50%;
+
   }
 
 }
+
+
+
+
+

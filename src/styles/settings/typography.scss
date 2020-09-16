@@ -1,18 +1,24 @@
 .title {
 
 
+  &-extrlg {
+    font-size: 77px;
+    letter-spacing: 2.32px;
+    line-height: 70px;
+  }
+
   &-lg {
 
   }
 
   &-md {
+
   }
 
   &-sm {
     font-size: 12px;
     letter-spacing: 0.96px;
     line-height: 23px;
-    color: $black;
   }
 }
 
@@ -23,8 +29,14 @@
   }
 
   &-md {
+    font-size: 18px;
+    letter-spacing: 0.96px;
+    line-height: 23px;
   }
 
   &-sm {
+    font-size: 14px;
+    letter-spacing: 0.96px;
+    line-height: 23px;
   }
 }
