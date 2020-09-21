@@ -1,6 +1,6 @@
-.section {
 
-  &__slider {
+
+  .section__slider {
     background: linear-gradient(90deg, #ccccd0, #c4c5ca);
   }
 
@@ -32,8 +32,6 @@
 
   }
 
-}
-
 
 .section__slider {
 
@@ -64,3 +62,62 @@
   }
 
 }
+
+.categories {
+
+  .categories__list {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .categories__item {
+    margin: 10px 25px;
+  }
+
+  .categories__link {
+    display: inline-block;
+  }
+}
+
+.section__categories {
+
+  @include media-breakpoint-down(md) {
+
+    .categories__list {
+      margin: 25px 0;
+    }
+
+    .categories__item {
+      margin: 5px;
+    }
+
+    .text-lg {
+      font-size: 16px;
+    }
+
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
