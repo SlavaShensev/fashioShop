@@ -14,9 +14,7 @@
   }
 
   &-md {
-    font-size: 13px;
-    line-height: 36px;
-    letter-spacing: 0.65px;
+
   }
 
   &-sm {
@@ -43,5 +41,17 @@
     font-size: 14px;
     letter-spacing: 0.96px;
     line-height: 23px;
+  }
+
+  &-exsm {
+    font-size: 13px;
+    line-height: 36px;
+    letter-spacing: 0.65px;
+  }
+
+  &-versm {
+    font-size: 11px;
+    line-height: 14px;
+
   }
 }
