@@ -283,12 +283,48 @@
 
   &__information {
     flex-basis: 630px;
-    margin-right: 70px;
+    margin-right: 45px;
   }
 }
 
+.banner__title {
+  margin-bottom: 20px;
+}
 
+.banner__text {
+  margin-bottom: 20px;
+}
 
+.section__banner {
+
+  @include media-breakpoint-down(lg) {
+
+    .banner {
+      background-position: -150px 0;
+    }
+
+    .banner__information {
+      margin-right: 0;
+    }
+
+  }
+}
+
+.section__banner {
+
+  @include media-breakpoint-down(md) {
+
+    .banner {
+      background: #00b6d8;
+    }
+
+    .banner__information {
+      flex-basis: 100%;
+      padding: 0 10px;
+    }
+
+  }
+}
 
 
 
