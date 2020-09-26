@@ -386,7 +386,6 @@
       flex-direction: column;
 
 
-
       .block__element {
         flex-basis: 100%;
       }
@@ -399,4 +398,61 @@
 
   }
 }
+
+.products {
+  margin: 90px 0;
+}
+
+.featured {
+  margin: 90px 0;
+}
+
+.featured__block {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured__element {
+  flex-basis: 23%;
+
+  .feature__img {
+    margin: 0 auto 20px;
+  }
+
+  .featured__title {
+    margin-bottom: 10px;
+  }
+
+  .featured__brand {
+    margin-bottom: 10px;
+  }
+
+}
+
+.featured__btn {
+  width: 175px;
+  margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

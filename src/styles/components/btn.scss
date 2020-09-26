@@ -26,6 +26,16 @@
     text-transform: uppercase;
   }
 
+  &__label-md {
+    display: inline-block;
+    width: 175px;
+    font-size: 9px;
+    line-height: 13px;
+    border-radius: 40px;
+    padding: 13px 0;
+    text-transform: uppercase;
+  }
+
   &__label-xl {
     display: inline-block;
     width: 250px;
@@ -44,6 +54,12 @@
   &--disabled-wite {
     color: $brown;
     background-color: $white;
+  }
+
+  &--disabled-wite--border {
+    color: $brown;
+    background-color: $white;
+    border: 2px solid #d3c7aa;
   }
 
 }
