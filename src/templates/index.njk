@@ -7,7 +7,7 @@
     <main class="main" role="main">
         <section class="section section__slider">
             <div class="container">
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel-slider owl-carousel owl-theme">
                     <div class="slider container-fluid row">
                         <div class="slider__preview col-xl-6 col-lg-6 col-md-12 col-sm-12">
                             <img src="/static/img/main/slider/slide.png" alt="" class="slider__img">
@@ -417,7 +417,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="featured__block">
+                    <div class="featured__block owl-carousel-featured owl-carousel owl-theme owl-nav-featured">
                         <div class="featured__element">
                             <img src="/static/img/main/featured/featured1.jpg" class="feature__img" alt="">
                             <div class="featured__title">
@@ -510,6 +510,29 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="featured__element">
+                            <img src="/static/img/main/featured/featured3.jpg" class="feature__img" alt="">
+                            <div class="featured__title">
+                                <a href="#" class="featured__link">
+                                    <h3 class="title font-bold">
+                                        Ted Baker Womens Light
+                                    </h3>
+                                </a>
+                            </div>
+                            <div class="featured__brand">
+                                <p class="text">
+                                    Gucci
+                                </p>
+                            </div>
+                            <div class="featured__price">
+                                <p class="text font-bold">
+                                    <span class="text text--nonprice">
+                                        $70.00
+                                    </span>
+                                    $120.00
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="featured__btn">
                         <div class="btn btn__label-md btn--disabled-wite--border">
@@ -521,6 +544,32 @@
                 </div>
             </div>
         </section>
+        <section class="section section__banner--left">
+            <div class="container">
+                <div class="banner--left">
+                    <div class="banner__information text-center">
+                        <div class="banner__title">
+                            <h3 class="title-bg font-semi color-brown">
+                                Subscribe to our newsletter
+                            </h3>
+                        </div>
+                        <div class="banner__text">
+                            <p class="text-sm">
+                                SIGN UP NOW AND GET 75% OFF
+                            </p>
+                        </div>
+                        <div class="banner__btn">
+                            <div class="btn btn__label-xl btn--disabled-wite">
+                                <p class="title-sm">
+                                    SIGN UP NOW
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 {% endblock %}

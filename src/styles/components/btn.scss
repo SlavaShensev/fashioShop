@@ -129,3 +129,41 @@
   }
 
 }
+
+.owl-nav-featured {
+  .owl-prev {
+    background: url('/static/icons/icon-slider/sprite-arrow2.png') 0 0 no-repeat;
+    width: 49px;
+    height: 49px;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    top: 35%;
+    left: -3%;
+    cursor: pointer;
+    transform: translate(-50%);
+
+    &:hover {
+      background-position: 0 -49px;
+    }
+  }
+
+  .owl-next {
+    background: url('/static/icons/icon-slider/sprite-arrow2.png') 0 0 no-repeat;
+    width: 49px;
+    height: 49px;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+    transform: translate(-50%);
+    background-position: -50px 0;
+    right: -8%;
+
+
+    &:hover {
+      background-position: -50px -50px;
+    }
+  }
+}

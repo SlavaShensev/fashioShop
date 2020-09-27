@@ -287,6 +287,20 @@
   }
 }
 
+.banner--left {
+  background: url("/static/img/main/banner/banner2.jpg") left center no-repeat #d7dad4;
+  background-size: cover;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 0;
+
+  .banner__information {
+    margin-right: 0;
+    margin-left: 50px;
+  }
+}
+
 .banner__title {
   margin-bottom: 20px;
 }
@@ -435,11 +449,44 @@
   margin: 50px auto;
 }
 
+.section__featured {
 
+  @include media-breakpoint-down(xl) {
 
+    .featured {
+      width: calc(100% - 100px);
+      margin: 90px auto;
+    }
 
+  }
+}
 
+.section__featured {
 
+  @include media-breakpoint-down(md) {
+
+    .featured {
+      margin: 25px auto;
+    }
+
+  }
+}
+
+.section__banner--left {
+
+  @include media-breakpoint-down(md) {
+
+    .banner--left {
+      background: #daddd9;
+    }
+
+    .banner__information {
+      flex-basis: 100%;
+      margin: 0;
+    }
+
+  }
+}
 
 
 
