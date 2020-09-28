@@ -19,8 +19,8 @@
     position: relative;
   }
 
-  &:first-of-type {
-    background-color: $black;
+ &--slider:hover{
+   background-color: $black;
   }
 
   &:last-of-type {
