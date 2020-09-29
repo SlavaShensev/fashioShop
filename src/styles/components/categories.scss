@@ -1,0 +1,35 @@
+.categories {
+
+  .categories__list {
+    margin-top: 75px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .categories__item {
+    margin: 10px 25px;
+  }
+
+  .categories__link {
+    display: inline-block;
+  }
+}
+
+.section__categories {
+
+  @include media-breakpoint-down(md) {
+
+    .categories__list {
+      margin: 25px 0;
+    }
+
+    .categories__item {
+      margin: 5px;
+    }
+    .text-lg {
+      font-size: 16px;
+    }
+  }
+}
