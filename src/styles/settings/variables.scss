@@ -85,6 +85,14 @@ $container-max-widths: (
         xl: 1140px
 );
 
+.container-xxl {
+  max-width: 1850px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 $grid-columns:                12;
 $grid-gutter-width:           30px;
 $grid-row-columns:            6;
