@@ -1,0 +1,25 @@
+.card-offer {
+  position: relative;
+
+  &--sm {
+    height: 170px;
+  }
+
+  &--md {
+    height: 240px;
+  }
+
+  &--lg {
+    height: 260px;
+  }
+
+  &--xl {
+    height: 330px;
+  }
+
+  &--xxl {
+    height: 530px;
+  }
+}
+
+

@@ -4,50 +4,40 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-
-  &__wrapper { //https://github.com/philipwalton/flexbugs#9-some-html-elements-cant-be-flex-containers
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  &__icon {
-    margin: 0 0.5em 0 0;
-  }
+  text-transform: uppercase;
 
   &__label {
-    display: inline-block;
-    width: 114px;
+    width: 112px;
     font-size: 9px;
     line-height: 13px;
     border-radius: 40px;
     padding: 13px 0;
-    text-transform: uppercase;
   }
 
   &__label-md {
-    display: inline-block;
     width: 175px;
     font-size: 9px;
     line-height: 13px;
     border-radius: 40px;
     padding: 13px 0;
-    text-transform: uppercase;
   }
 
   &__label-xl {
-    display: inline-block;
     width: 250px;
     font-size: 9px;
     line-height: 13px;
     border-radius: 40px;
     padding: 20px 0;
-    text-transform: uppercase;
   }
 
+  &__label-new {
+    width: 50px;
+    font-size: 11px;
+    padding: 8px;
 
-  &--disabled, &[disabled] {
+  }
+
+  &--disabled {
     color: $btnDisabledColor;
     background-color: $black;
   }
@@ -103,7 +93,6 @@
     }
   }
 }
-
 
 .owl-dots {
 
