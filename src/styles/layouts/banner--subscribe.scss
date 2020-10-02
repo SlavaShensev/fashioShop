@@ -1,0 +1,14 @@
+.section__banner {
+
+  @include media-breakpoint-down(lg) {
+
+    .banner {
+      background-position: -150px 0;
+    }
+
+    .banner__information {
+      margin-right: 0;
+    }
+
+  }
+}

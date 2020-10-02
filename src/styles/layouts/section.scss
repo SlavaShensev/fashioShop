@@ -1,19 +1,5 @@
 
-.section__banner--left {
 
-  @include media-breakpoint-down(md) {
-
-    .banner--left {
-      background: #daddd9;
-    }
-
-    .banner__information {
-      flex-basis: 100%;
-      margin: 0;
-    }
-
-  }
-}
 
 
 
