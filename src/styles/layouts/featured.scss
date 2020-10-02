@@ -1,0 +1,51 @@
+.featured {
+  margin: 90px 0;
+}
+
+.featured__block {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured__element {
+  flex-basis: 23%;
+
+  .feature__img {
+    margin: 0 auto 20px;
+  }
+
+  .featured__title {
+    margin-bottom: 10px;
+  }
+
+  .featured__brand {
+    margin-bottom: 10px;
+  }
+
+}
+
+.featured__btn {
+  width: 175px;
+  margin: 50px auto;
+}
+
+.section__featured {
+
+  @include media-breakpoint-down(xl) {
+
+    .featured {
+      width: calc(100% - 100px);
+      margin: 90px auto;
+    }
+
+  }
+
+  @include media-breakpoint-down(md) {
+
+    .featured {
+      margin: 25px auto;
+    }
+
+  }
+}

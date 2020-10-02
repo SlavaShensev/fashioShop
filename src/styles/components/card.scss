@@ -10,16 +10,20 @@
   }
 
   &--lg {
-    height: 260px;
+    height: 265px;
   }
 
   &--xl {
-    height: 330px;
+    height: 340px;
   }
 
   &--xxl {
-    height: 530px;
+    max-height: 530px;
   }
 }
 
+.card-products {
+  position: relative;
 
+
+}
