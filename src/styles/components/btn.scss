@@ -34,23 +34,22 @@
     width: 50px;
     font-size: 11px;
     padding: 8px;
-
-  }
-
-  &--disabled {
-    color: $btnDisabledColor;
+    z-index: 2;
     background-color: $black;
-  }
-  &--disabled-wite {
-    color: $brown;
-    background-color: $white;
+    color: $white;
+
+
   }
 
-  &--disabled-wite--border {
-    color: $brown;
-    background-color: $white;
-    border: 2px solid #d3c7aa;
+  &__offers {
+    color: $white;
+    background-color: $black;
+    border-radius: 40px;
   }
+
+
+
+
 
 }
 

@@ -1,0 +1,27 @@
+.label {
+  $parent: &;
+  color: $white;
+  font-size: 0.85em;
+  background: $black;
+
+  &__content {
+    padding: 2px 4px;
+  }
+
+  &--accent {
+    background: $black;
+  }
+
+  &--xl {
+    font-size: 11px;
+
+    #{$parent} {
+      &__content {
+        padding: 6px 6px;
+        color: $white;
+        background-color: $black;
+      }
+    }
+  }
+
+}

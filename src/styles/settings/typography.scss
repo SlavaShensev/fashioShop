@@ -1,35 +1,39 @@
-.title {
+.title { // Bloc
+  font-weight: 600;
 
-
-  &-extrlg {
+  &-extrlg { // Modification
     font-size: 68px;
     letter-spacing: 2.32px;
     line-height: 70px;
   }
 
-  &-bg {
+  &-bg { //h1
     font-size: 26px;
     line-height: 30px;
     letter-spacing: 1.43px;
   }
 
-  &-lg {
+  &-lg { //h2
     font-size: 19px;
     line-height: 24px;
     letter-spacing: 1.43px;
   }
 
-  &-md {
+  &-md { //h3
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 1.43px;
   }
 
-  &-sm {
+  &-sm { //h4
     font-size: 12px;
     letter-spacing: 0.96px;
     line-height: 23px;
   }
+
+  //h5
+
+  //h6
 }
 
 .text {
@@ -37,6 +41,7 @@
 
   &-lg {
     font-size: 19px;
+    //line-height
   }
 
   &-md {
@@ -59,6 +64,5 @@
   &-versm {
     font-size: 11px;
     line-height: 14px;
-
   }
 }
