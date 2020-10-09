@@ -1,68 +1,63 @@
-.title { // Bloc
+.title {
   font-weight: 600;
 
-  &-extrlg { // Modification
+  &-xxl {
     font-size: 68px;
     letter-spacing: 2.32px;
     line-height: 70px;
   }
 
-  &-bg { //h1
+  &-xl { //h1
     font-size: 26px;
-    line-height: 30px;
+
     letter-spacing: 1.43px;
   }
 
-  &-lg { //h2
+  &-l { //h2
     font-size: 19px;
-    line-height: 24px;
+
     letter-spacing: 1.43px;
   }
 
-  &-md { //h3
+  &-m { //h3
     font-size: 15px;
-    line-height: 24px;
     letter-spacing: 1.43px;
   }
 
-  &-sm { //h4
+  &-s { //h4
     font-size: 12px;
-    letter-spacing: 0.96px;
-    line-height: 23px;
+    letter-spacing: 0.26px;
+
   }
 
-  //h5
-
-  //h6
 }
 
 .text {
 
 
-  &-lg {
+  &-xl {
     font-size: 19px;
-    //line-height
+
   }
 
-  &-md {
+  &-l {
     font-size: 18px;
     letter-spacing: 0.96px;
-    line-height: 23px;
+
   }
 
-  &-sm {
+  &-m {
     font-size: 14px;
-    letter-spacing: -1px;
-    line-height: 23px;
+
   }
 
-  &-exsm {
+  &-s {
     font-size: 13px;
-    letter-spacing: 0.65px;
+
   }
 
-  &-versm {
+  &-xs {
     font-size: 11px;
-    line-height: 14px;
+
   }
 }

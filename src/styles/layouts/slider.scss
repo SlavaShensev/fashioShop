@@ -1,6 +1,7 @@
 
 .section__slider {
   background: linear-gradient(90deg, #ccccd0, #c4c5ca);
+
 }
 
 .slider {
@@ -17,6 +18,7 @@
 
     .slider__content {
       margin-top: 25px;
+      font-family: $font-accent;
     }
 
     .slider__btn {

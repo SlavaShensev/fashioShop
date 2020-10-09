@@ -23,6 +23,7 @@
   @include media-breakpoint-down(md) {
     .header__logo {
       flex-basis: 100%;
+      text-align: center;
       margin-bottom: 15px;
     }
     .header__menu {
