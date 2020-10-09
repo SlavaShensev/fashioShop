@@ -2,10 +2,12 @@
   font-weight: 600;
 
   &-xxl {
-    font-size: 68px;
+    font-size: 116px;
     letter-spacing: 2.32px;
-    line-height: 70px;
+    line-height: 108px;
+    text-transform: uppercase;
   }
+
 
   &-xl { //h1
     font-size: 26px;
@@ -48,6 +50,9 @@
 
   &-m {
     font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+    font-weight: 400;
 
   }
 
