@@ -1,0 +1,33 @@
+.section__subscribe {
+
+  @include media-breakpoint-down(lg) {
+
+    .banner__bg {
+      background-color: #dfe3dd;
+    }
+    .banner__bg-img {
+      display: none;
+    }
+    .banner__content {
+      width: 100%;
+      margin: 10px 20px;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+
+    .offers__item {
+      margin-bottom: 20px;
+    }
+
+    .banner__title {
+      margin-bottom: 10px;
+    }
+
+    .banner__text {
+      margin-bottom: 10px;
+    }
+  }
+
+
+}
