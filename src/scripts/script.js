@@ -17,7 +17,7 @@ $(document).ready(function () {
         }
     });
 
-    $('.owl-carousel-featured').owlCarousel({
+    $('.featured__block ').owlCarousel({
         loop:true,
         margin: 30,
         nav:true,

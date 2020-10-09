@@ -1,50 +1,56 @@
 .featured {
-  margin: 90px 0;
-}
+  margin-top: 90px;
+  margin-bottom: 80px;
 
-.featured__block {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.featured__element {
-  flex-basis: 23%;
-
-  .feature__img {
-    margin: 0 auto 20px;
+  &__head {
+    margin-bottom: 55px;
+    text-align: center;
   }
 
-  .featured__title {
+  &__categories {
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    margin-top: 50px;
     margin-bottom: 10px;
+    text-align: center;
   }
-
-  .featured__brand {
-    margin-bottom: 10px;
-  }
-
 }
 
-.featured__btn {
-  width: 175px;
-  margin: 50px auto;
+.featured-offer__title {
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.featured-offer__brand {
+  margin-bottom: 12px;
+}
+
+
+.featured-offer__brand {
+  color: $grey__medium;
 }
 
 .section__featured {
 
-  @include media-breakpoint-down(xl) {
-
-    .featured {
-      width: calc(100% - 100px);
-      margin: 90px auto;
-    }
-
-  }
 
   @include media-breakpoint-down(md) {
 
     .featured {
-      margin: 25px auto;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .featured__head {
+      margin-bottom: 10px;
+    }
+    .featured__categories {
+      margin-bottom: 10px;
+    }
+    .featured__btn {
+      margin-top: 20px;
+      margin-bottom: 10px;
     }
 
   }
