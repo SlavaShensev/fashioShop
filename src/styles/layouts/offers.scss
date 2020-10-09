@@ -1,5 +1,5 @@
 .offers {
-  margin-bottom: 30px;
+margin-top: 60px;
 }
 
 .offers__new {
@@ -15,4 +15,21 @@
 .offers__new-bottom {
   top: 10px;
   right: 10px;
+}
+
+.section__categories {
+
+  @include media-breakpoint-down(md) {
+
+    .categories__list {
+      margin: 25px 0;
+    }
+
+    .categories__item {
+      margin: 5px;
+    }
+    .text-lg {
+      font-size: 16px;
+    }
+  }
 }
