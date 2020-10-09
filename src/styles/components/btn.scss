@@ -9,7 +9,7 @@
   &__label {
     width: 112px;
     font-size: 9px;
-    line-height: 13px;
+    letter-spacing: 0.2px;
     border-radius: 40px;
     padding: 13px 0;
   }
@@ -55,7 +55,6 @@
   &__offers {
     color: $white;
     background-color: $black;
-    border-radius: 40px;
   }
 
 }
