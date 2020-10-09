@@ -1,5 +1,21 @@
 .offers {
-margin-top: 60px;
+  margin-top: 60px;
+
+  &__categories {
+    margin-bottom: 55px;
+  }
+
+  &__cards {
+    margin-bottom: 30px;
+  }
+}
+
+.banner__title {
+  margin-bottom: 20px;
+}
+
+.banner__text {
+  margin-bottom: 30px;
 }
 
 .offers__new {
@@ -17,19 +33,39 @@ margin-top: 60px;
   right: 10px;
 }
 
-.section__categories {
+
+.section__offers {
+
+  @include media-breakpoint-down(lg) {
+
+    .banner__content--right {
+      margin: auto;
+    }
+    .banner__bg {
+      background-color: $blue__light;
+    }
+    .banner__bg-img {
+      display: none;
+    }
+    .banner__content {
+      width: 100%;
+      margin: 10px 20px;
+    }
+  }
 
   @include media-breakpoint-down(md) {
 
-    .categories__list {
-      margin: 25px 0;
+    .offers__item {
+      margin-bottom: 20px;
     }
 
-    .categories__item {
-      margin: 5px;
+    .banner__title {
+      margin-bottom: 5px;
     }
-    .text-lg {
-      font-size: 16px;
+
+    .banner__text {
+      margin-bottom: 5px;
     }
   }
+
 }
