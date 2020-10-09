@@ -1,6 +1,19 @@
 .blog {
   margin: 90px 0 -140px;
 
+  .blog__head {
+    text-align: center;
+  }
+
+  .blog__info {
+    text-align: center;
+
+    .blog__data {
+      color: $grey__medium;
+    }
+  }
+
+
   &__block {
     display: flex;
     justify-content: space-between;
@@ -24,6 +37,13 @@
 .section__blog {
 
   @include media-breakpoint-down(md) {
+
+    .blog__element{
+      flex-basis: 100%;
+      text-align: center;
+    }
+
+
 
     .blog {
       margin-top: 25px;
