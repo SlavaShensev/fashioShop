@@ -8,6 +8,10 @@
   right: 20px;
 }
 
+.offers__item + .offers__item {
+  margin-top: 20px;
+}
+
 .offers__new-bottom {
   top: 10px;
   right: 10px;
