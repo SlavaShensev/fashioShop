@@ -1,5 +1,9 @@
 .header {
   border-bottom: 6px $grey__light solid;
+  &__logo:hover{
+    transition: all 0.1s ease-in-out;
+    filter: drop-shadow(0 0 6px #4b4b4b);
+  }
 }
 
 .header__main {
@@ -15,6 +19,10 @@
 
     .menu__item {
       padding-right: 60px;
+    }
+    .menu__item:hover{
+      transition: all 0.1s ease-in-out;
+      filter: drop-shadow(0 0 6px #4b4b4b);
     }
   }
 }

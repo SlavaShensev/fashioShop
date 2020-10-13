@@ -27,6 +27,14 @@
   margin-bottom: 12px;
 }
 
+.featured-card {
+  padding: 10px;
+}
+
+.featured-card:hover{
+  transition: all 0.1s ease-in-out;
+  filter: drop-shadow(0 0 6px #4b4b4b);
+}
 
 .featured-offer__brand {
   color: $grey__medium;

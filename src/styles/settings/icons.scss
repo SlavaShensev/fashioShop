@@ -11,8 +11,8 @@
     position: relative;
   }
 
- &--slider:hover{
-   background-color: $black;
+  &--slider:hover {
+    background-color: $black;
   }
 
   &:last-of-type {
@@ -25,16 +25,23 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
+}
+.icon:hover{
+  transition: all 0.1s ease-in-out;
+  filter: drop-shadow(0 0 6px #4b4b4b);
 }
 
 .cart__img {
   width: 16px;
   height: 16px;
 }
+
 .search__img {
   width: 16px;
   height: 16px;
 }
+
 .icons__img {
   width: 12px;
   height: 12px;

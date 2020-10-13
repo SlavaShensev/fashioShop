@@ -11,6 +11,10 @@
     justify-content: space-between;
   }
 
+  .information__item {
+    margin-bottom: 15px;
+  }
+
   .footer__copy {
     text-align: center;
     margin-bottom: 50px;
@@ -26,6 +30,7 @@
 .information__title {
   color: $grey__dark;
   padding: 0 10px;
+  margin-bottom: 40px;
 }
 
 .information__list {

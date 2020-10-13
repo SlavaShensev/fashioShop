@@ -10,6 +10,11 @@
     margin: 10px 25px;
   }
 
+  .categories__item:hover{
+    transition: all 0.1s ease-in-out;
+    filter: drop-shadow(0 0 6px #4b4b4b);
+  }
+
   .categories__link {
     display: inline-block;
   }

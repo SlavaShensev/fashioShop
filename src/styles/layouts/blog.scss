@@ -23,6 +23,7 @@
     .blog__element {
       flex-basis: 48.8%;
 
+
       .blog__info {
         width: calc(100% - 70px);
         margin: 0 auto;
@@ -30,6 +31,11 @@
         background: $white;
         padding: 15px 0;
       }
+    }
+
+    .blog__element:hover{
+      transition: all 0.1s ease-in-out;
+      filter: drop-shadow(0 0 6px #4b4b4b);
     }
   }
 }

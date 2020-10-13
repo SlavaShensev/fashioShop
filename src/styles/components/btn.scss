@@ -45,6 +45,7 @@
     color: $white;
   }
 
+
   &__label-new:after {
     content: '';
     border: 15px solid transparent;
@@ -53,7 +54,10 @@
     bottom: -13px;
     left: 0px;
     transform: rotate(0deg);
+  }
 
+  &__label-new:hover:after {
+    display: none;
   }
 
   &__offers {
@@ -66,6 +70,13 @@
   }
 }
 
+.btn:hover {
+  background-color: aliceblue;
+  color: black;
+  box-shadow: inset 0 0 0 4px #737577;
+  transition: all 0.1s ease-in-out;
+  filter: drop-shadow(0 0 6px #4b4b4b);
+}
 
 
 

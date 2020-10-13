@@ -24,9 +24,14 @@
   right: 20px;
 }
 
-.offers__item + .offers__item {
+.offers__item {
   margin-top: 20px;
 }
+.offers__item:hover{
+  transition: all 0.1s ease-in-out;
+  filter: drop-shadow(0 0 6px #4b4b4b);
+}
+
 
 .offers__new-bottom {
   top: 10px;

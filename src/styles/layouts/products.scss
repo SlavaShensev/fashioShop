@@ -20,10 +20,15 @@
   margin-bottom: 30px;
 }
 
+.card-products:hover {
+  transition: all 0.1s ease-in-out;
+  filter: drop-shadow(0 0 6px #4b4b4b);
+}
+
 .card-products__btn {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  margin-left: -111px;
   bottom: 40px;
 }
 
