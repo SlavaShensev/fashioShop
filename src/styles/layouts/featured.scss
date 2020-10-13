@@ -42,7 +42,6 @@
 
 .section__featured {
 
-
   @include media-breakpoint-down(md) {
 
     .featured {
@@ -60,6 +59,16 @@
       margin-top: 20px;
       margin-bottom: 10px;
     }
+
+  }
+
+  @include media-breakpoint-down(sm) {
+
+   .featured-card__bg-img {
+     width: 363px;
+     height: 472px;
+
+   }
 
   }
 }
