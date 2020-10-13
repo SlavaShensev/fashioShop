@@ -1,5 +1,5 @@
 .blog {
-  margin-top: 90px;
+  margin-top: 100px;
 
   .blog__head {
     text-align: center;
@@ -7,6 +7,7 @@
 
   .blog__info {
     text-align: center;
+
 
     .blog__data {
       color: $grey__medium;
@@ -18,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 60px;
 
     .blog__element {
       flex-basis: 48.8%;
@@ -26,14 +27,18 @@
 
       .blog__info {
         width: calc(100% - 70px);
-        margin: 0 auto;
+        margin: 20px auto;
         transform: translateY(-50%);
         background: $white;
         padding: 15px 0;
+
+        .blog__topic {
+          margin-bottom: 5px;
+        }
       }
     }
 
-    .blog__element:hover{
+    .blog__element:hover {
       transition: all 0.1s ease-in-out;
       filter: drop-shadow(0 0 6px #4b4b4b);
     }
@@ -44,11 +49,10 @@
 
   @include media-breakpoint-down(md) {
 
-    .blog__element{
+    .blog__element {
       flex-basis: 100%;
       text-align: center;
     }
-
 
 
     .blog {

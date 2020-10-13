@@ -3,21 +3,21 @@
 }
 
 .products__header {
-  margin-bottom: 30px;
+
 
   .products__title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 21px;
   }
 
   .products__text {
     text-align: center;
-    margin-bottom: 50px;
+
   }
 }
 
 .products__text {
-  margin-bottom: 30px;
+  margin-bottom: 42px;
 }
 
 .card-products:hover {
@@ -28,8 +28,8 @@
 .card-products__btn {
   position: absolute;
   left: 50%;
-  margin-left: -111px;
-  bottom: 40px;
+  transform: translateX(-50%);
+  bottom: 33px;
 }
 
 .section__products {

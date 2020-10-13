@@ -1,5 +1,6 @@
 .header {
   border-bottom: 6px $grey__light solid;
+
   &__logo:hover{
     transition: all 0.1s ease-in-out;
     filter: drop-shadow(0 0 6px #4b4b4b);
@@ -16,15 +17,24 @@
 
   .header__menu {
     display: flex;
-
-    .menu__item {
-      padding-right: 60px;
-    }
+    flex-basis: 63%;
+    padding-bottom: 10px;
     .menu__item:hover{
       transition: all 0.1s ease-in-out;
       filter: drop-shadow(0 0 6px #4b4b4b);
     }
   }
+}
+
+.menu__item {
+  padding-left: 96px;
+}
+.menu__item:first-child {
+  padding-left: 0;
+}
+
+.header__icon {
+  margin-bottom: 10px;
 }
 
 .header {

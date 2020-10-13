@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   display: flex;
-  padding: 80px 0;
+  padding: 44px 0;
 
   &__bg {
     position: absolute;
@@ -21,7 +21,7 @@
   &__content {
     position: relative;
     z-index: 2;
-    width: 50%;
+    width: 67%;
     text-align: center;
 
     &--right {
